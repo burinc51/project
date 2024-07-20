@@ -1,0 +1,40 @@
+name: project
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  firebase_database: ^10.3.4
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  intl: ^0.18.1
+  schedulers: ^1.0.1
+  syncfusion_flutter_calendar: ^23.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/images/
+  fonts:
+    - family: InconsolataBold
+      fonts:
+        - asset: asset/font/Inconsolata-Bold.ttf
+    - family: InconsolataLight
+      fonts:
+        - asset: asset/font/Inconsolata-Light.ttf
+    - family: Sora
+      fonts:
+        - asset: asset/font/Sora-Bold.ttf
+        - asset: asset/font/Sora-Light.ttf
+        - asset: asset/font/Sora-Medium.ttf
+        - asset: asset/font/Sora-Regular.ttf
+        - asset: asset/font/Sora-Thin.ttf
